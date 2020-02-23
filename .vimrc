@@ -1,4 +1,6 @@
 set nocompatible
+" 语法高亮
+syntax=on
 filetype on
  
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -181,8 +183,6 @@ set foldlevel=3
 set foldenable              " 开始折叠
 " 不要使用vi的键盘模式，而是vim自己的
 set nocompatible
-" 语法高亮
-set syntax=on
 " 去掉输入错误的提示声音
 set noeb
 " 在处理未保存或只读文件的时候，弹出确认
